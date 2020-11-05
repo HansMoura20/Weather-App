@@ -25,7 +25,10 @@ cityForm.addEventListener('submit', (e) =>{
   //update the UI with new city
   updateCity(city)
   .then(data => updateUI(data))
-  .catch(err => console.log(err));
+  .catch(err =>{
+    console.log(err);
+    alert('Please enter a valid city!');
+  } );
 });
 
 const updateUI = (data) =>{

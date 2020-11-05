@@ -5,6 +5,7 @@ body {
 }
 .container {
   max-width: 400px;
+  margin-top: -10px !important;
 }
 .icon {
   position: relative;
@@ -16,4 +17,16 @@ body {
 input::placeholder {
   text-align: center;
   letter-spacing: 0.2em;
+}
+.temperature{
+  font-size: 3em;
+  margin-top: -5px !important;
+}
+.copyright {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.copyright span{
+  color: #FF4400;
 }

@@ -3,7 +3,7 @@ const key ='';
 //1.getcity information
 const getCity = async (city) =>{
   //this is the base url that we want to make a request
-  const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+  const base = 'https://dataservice.accuweather.com/locations/v1/cities/search';
 
   const query = `?apikey=${key}&q=${city}`;
 

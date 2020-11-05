@@ -31,13 +31,13 @@ cityForm.addEventListener('submit', (e) =>{
 const updateUI = (data) =>{
   //destructure properties
   const { cityDets, weather } = data;
-  console.log(data);
+  //console.log(data);
   //update details template
   details.innerHTML = `
     <h5 class="my-3">${cityDets.EnglishName}</h5>
     <h3 class="my-3">${cityDets.Country.EnglishName}</h3>
     <div class="my-3">${weather.WeatherText}</div>
-    <div class="display-4 my-4">
+    <div class="temperature my-4">
       <span>${weather.Temperature.Metric.Value}</span>
       <span>&deg;C</span>
     </div>

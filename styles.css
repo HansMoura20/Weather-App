@@ -23,9 +23,8 @@ input::placeholder {
   margin-top: -5px !important;
 }
 .copyright {
+  margin-top: 5% !important;
   text-align: center;
-  position: fixed;
-  bottom: 0;
 }
 .copyright span{
   color: #FF4400;
